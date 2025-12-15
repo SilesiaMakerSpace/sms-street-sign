@@ -9,3 +9,6 @@
 #include <WiFiType.h>
 #include <WiFiUdp.h>
 
+#ifndef SETUP_CONFIGURED
+#include "config.h"
+#endif
