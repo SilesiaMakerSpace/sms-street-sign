@@ -16,12 +16,29 @@ const String wifi_pass = PRESET_WIFI_PASS;
 #define PRESET_UART_BAUD 115200
 #endif
 
-const int uart_baud = PRESET_UART_BAUD; 
+//const int uart_baud = PRESET_UART_BAUD; 
 
 #ifndef PRESET_INDEX_URL 
 #define PRESET_INDEX_URL "http://fed.sms.ngo/source-index-map.json"
 #endif
 
-const String http_update_check = PRESET_INDEX_URL; 
+//const String http_update_check = PRESET_INDEX_URL; 
+
+#ifndef PRESET_LEDCOUNT 
+#define PRESET_LEDCOUNT 176
+#endif
+
+#ifndef PRESET_LEDTYPE 
+#define PRESET_LEDTYPE WS2813
+#endif
+
+#ifndef PRESET_LEDPIN 
+#define PRESET_LEDPIN 
+#endif
+
+
+
+//const String http_update_check = PRESET_INDEX_URL; 
+
 
 #define SETUP_CONFIGURED true
