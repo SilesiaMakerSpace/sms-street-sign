@@ -1,0 +1,30 @@
+{
+  "name": "sms-street-sign",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/SilesiaMakerSpace/sms-street-sign#readme",
+  "bugs": {
+    "url": "https://github.com/SilesiaMakerSpace/sms-street-sign/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SilesiaMakerSpace/sms-street-sign.git"
+  },
+  "license": "MIT",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs",
+    "example": "examples"
+  },
+  "scripts": {
+    "test": "task"
+  },
+  "dependencies": {
+    "dockerode": "^4.0.9",
+    "electron": "^39.2.7",
+    "husky": "^9.1.7",
+    "octokit": "^5.0.5"
+  }
+}
