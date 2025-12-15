@@ -1,0 +1,6 @@
+profiles:
+  mark1:
+    fqbn: esp32:esp32:makergo_c3_supermini
+    notes: minimum requirements of usage are handled by this board
+    libraries:
+      - FastLED
